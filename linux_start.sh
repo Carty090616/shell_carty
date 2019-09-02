@@ -12,3 +12,8 @@ yum remove docker \
             docker-engine
 
 echo "卸载完成"
+
+echo "安装需要的包"
+yum install -y yum-utils \
+  device-mapper-persistent-data \
+  lvm2
