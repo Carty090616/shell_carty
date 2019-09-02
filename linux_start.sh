@@ -35,8 +35,7 @@ echo "########################开机自启动########################"
 systemctl enable docker
 
 echo "########################切换数据源########################"
-echo 
-'{
+echo '{
   "registry-mirrors": ["https://registry.docker-cn.com"]
 }'>>/etc/docker/daemon.json
 cat /etc/docker/daemon.json
