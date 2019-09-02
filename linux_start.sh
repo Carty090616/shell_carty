@@ -73,4 +73,4 @@ echo -e "\n########################重启docker########################\n"
 service docker restart
 
 # echo -e "########################重启linux########################"
-# reboot
+reboot
